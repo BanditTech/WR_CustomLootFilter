@@ -52,6 +52,10 @@ Example Code:
    { "#Key": "TopTierRarity", "Eval": ">=", "Min": 2, "Type": "Prop", "Weight": 2 },
    { "#Key": "TopTierCritChance", "Eval": ">=", "Min": 1, "Type": "Prop", "Weight": 1 },
    { "#Key": "TopTierCritMulti", "Eval": ">=", "Min": 1, "Type": "Prop", "Weight": 1 },
+   { "ElementList": [
+			{ "#Key": "TopTierCritChance", "Eval": ">=", "Min": 1, "Type": "Prop", "Weight": 1 },
+			{ "#Key": "TopTierCritMulti", "Eval": ">=", "Min": 1, "Type": "Prop", "Weight": 1 }
+    ], "GroupType": "And", "TypeValue": 2, "Weight": 2 },
    { "#Key": "TopTierCastSpeed", "Eval": ">=", "Min": 1, "Type": "Prop", "Weight": 1 },
    { "#Key": "TopTierAttackSpeed", "Eval": ">=", "Min": 1, "Type": "Prop", "Weight": 1 }
   ],
